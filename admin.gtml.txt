@@ -1,0 +1,17 @@
+<!-- Contact Form Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contact-form">
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" placeholder="Your Name" required>
+
+    <label for="contact-email">Your Email:</label>
+    <input type="email" id="contact-email" placeholder="Your Email" required>
+
+    <label for="contact-message">Your Message:</label>
+    <textarea id="contact-message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="contact-status"></p>
+</section>
